@@ -1,0 +1,14 @@
+=============================================
+  CodeTyphon Studio
+  Typhon IDE
+  Package Information file
+=============================================
+
+PCE_BrookFrameworkActionsCore
+
+Version: 0.0 Date: 2022-09-28 08:54
+
+
+
+
+

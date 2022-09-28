@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="PCE_BrookFrameworkConstraints"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="../Sources/include"/>
+        <Libraries Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+        <OtherUnitFiles Value="../Sources/constraints"/>
+        <UnitOutputDirectory Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="../Sources/constraints/BrookConstraints.pas"/>
+        <UnitName Value="BrookConstraints"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkRouter"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

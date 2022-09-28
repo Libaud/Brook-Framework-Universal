@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="PCE_BrookFrameworkServersAndDaemons"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="../Sources/include"/>
+        <Libraries Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+        <OtherUnitFiles Value="../Sources/serversanddaemons;../Sources/utilities"/>
+        <UnitOutputDirectory Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="../Sources/serversanddaemons/BrookEmbeddedHTTPServers.pas"/>
+        <UnitName Value="BrookEmbeddedHTTPServers"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/serversanddaemons/BrookHTTPConnections.pas"/>
+        <UnitName Value="BrookHTTPConnections"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/serversanddaemons/BrookHTTPServersHandlers.pas"/>
+        <UnitName Value="BrookHTTPServersHandlers"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/utilities/BrookServersAndDaemonsUtils.pas"/>
+        <UnitName Value="BrookServersAndDaemonsUtils"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkLogging"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkRouter"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkApplications"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <ObjectPath Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

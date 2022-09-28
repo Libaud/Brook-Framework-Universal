@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="PCE_BrookFrameworkApplications"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="../Sources/include"/>
+        <Libraries Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+        <OtherUnitFiles Value="../Sources/application"/>
+        <UnitOutputDirectory Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="../Sources/application/BrookApplication.pas"/>
+        <UnitName Value="BrookApplication"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/application/BrookApplicationInterfaces.pas"/>
+        <UnitName Value="BrookApplicationInterfaces"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/application/BrookApplicationExceptions.pas"/>
+        <UnitName Value="BrookApplicationExceptions"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/application/BrookHTTPApplication.pas"/>
+        <UnitName Value="BrookHTTPApplication"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkGlobal"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <ObjectPath Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

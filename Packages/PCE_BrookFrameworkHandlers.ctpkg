@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="PCE_BrookFrameworkHandlers"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="../Sources/handlers;../Sources/include"/>
+        <Libraries Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+        <OtherUnitFiles Value="../Sources/handlers;../Sources/include"/>
+        <UnitOutputDirectory Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="../Sources/handlers/BrookConfiguratorHandler.pas"/>
+        <UnitName Value="BrookConfiguratorHandler"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/handlers/BrookFCLeventLogHandler.pas"/>
+        <UnitName Value="BrookFCLEventLogHandler"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/handlers/BrookMessagesHandler_Ptbr.pas"/>
+        <UnitName Value="BrookMessagesHandler_ptBR"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/handlers/BrookMiddlewareHandler.pas"/>
+        <UnitName Value="BrookMiddlewareHandler"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/handlers/BrookRouterHandler.pas"/>
+        <UnitName Value="BrookRouterHandler"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/handlers/BrookSessionHandler.pas"/>
+        <UnitName Value="BrookSessionHandler"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/handlers/BrookHandlersExceptions.pas"/>
+        <UnitName Value="BrookHandlersExceptions"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkMiddleware"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkConfigurator"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkBrokers"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkHTTPCore"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <ObjectPath Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

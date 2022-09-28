@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="PCE_BrookFrameworkBrokers"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="../Sources/brokers;../Sources/include"/>
+        <Libraries Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+        <OtherUnitFiles Value="../Sources/brokers;../Sources/include"/>
+        <UnitOutputDirectory Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="../Sources/brokers/brookfclcgibroker.pas"/>
+        <UnitName Value="BrookFCLCGIBroker"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/brokers/brookfcleventlogbroker.pas"/>
+        <UnitName Value="BrookFCLEventLogBroker"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/brokers/brookfclfcgibroker.pas"/>
+        <UnitName Value="BrookFCLFCGIBroker"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/brokers/brookfclhttpappbroker.pas"/>
+        <UnitName Value="BrookFCLHttpAppBroker"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/brokers/brookfclhttpclientbroker.pas"/>
+        <UnitName Value="BrookFCLHttpClientBroker"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/brokers/brookfclhttpdaemonbroker.pas"/>
+        <UnitName Value="BrookFCLHttpDaemonBroker"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/brokers/brookhttpdefsbroker.pas"/>
+        <UnitName Value="BrookHttPDefsBroker"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/brokers/brookmessages_ptbr.pas"/>
+        <UnitName Value="BrookMessages_ptBR"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/brokers/brookstaticfilebroker.pas"/>
+        <UnitName Value="BrookStaticFileBroker"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkActions"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkServersAndDaemons"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkLogging"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkRouter"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkApplications"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <ObjectPath Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <MultiProject FileVersion="1">
+    <Elements Count="33">
+      <Element0 FileName="../SAGui/SAGui.ctmpr"/>
+      <Element1 FileName="Packages/PCE_BrookFrameworkMarshalling.ctpkg"/>
+      <Element2 FileName="Packages/PCE_BrookFrameworkPlatform.ctpkg"/>
+      <Element3 FileName="Packages/PCE_BrookFrameworkCore.ctpkg"/>
+      <Element4 FileName="Packages/PCE_BrookFrameworkPlatform.ctpkg"/>
+      <Element5 FileName="Packages/PCE_BrookFrameworkSettings.ctpkg"/>
+      <Element6 FileName="Packages/PCE_BrookFrameworkHTTPCommon.ctpkg"/>
+      <Element7 FileName="Packages/PCE_BrookFrameworkHTTPCore.ctpkg"/>
+      <Element8 FileName="Packages/PCE_BrookFrameworkHTTPServers.ctpkg"/>
+      <Element9 FileName="Packages/PCE_BrookFrameworkActionsCore.ctpkg"/>
+      <Element10 FileName="Packages/PCE_BrookFrameworkRouter.ctpkg"/>
+      <Element11 FileName="Packages/PCE_BrookFrameworkActions.ctpkg"/>
+      <Element12 FileName="Packages/PCE_BrookFrameworkSessions.ctpkg"/>
+      <Element13 FileName="Packages/PCE_BrookFrameworkGlobal.ctpkg"/>
+      <Element14 FileName="Packages/PCE_BrookFrameworkConstraints.ctpkg"/>
+      <Element15 FileName="Packages/PCE_BrookFrameworkDatas.ctpkg"/>
+      <Element16 FileName="Packages/PCE_BrookFrameworkConfigurator.ctpkg"/>
+      <Element17 FileName="Packages/PCE_BrookFrameworkUtilities.ctpkg"/>
+      <Element18 FileName="Packages/PCE_BrookFrameworkURL.ctpkg"/>
+      <Element19 FileName="Packages/PCE_BrookFrameworkApplications.ctpkg"/>
+      <Element20 FileName="Packages/PCE_BrookFrameworkLogging.ctpkg"/>
+      <Element21 FileName="Packages/PCE_BrookFrameworkBrokers.ctpkg"/>
+      <Element22 FileName="Packages/PCE_BrookFrameworkActions.ctpkg"/>
+      <Element23 FileName="Packages/PCE_BrookFrameworkHandlers.ctpkg"/>
+      <Element24 FileName="Packages/PCE_BrookFrameworkMiddleware.ctpkg"/>
+      <Element25 FileName="Packages/PCE_BrookFrameworkServersAndDaemons.ctpkg"/>
+      <Element26 FileName="Packages/PCE_BrookFrameworkCGI.ctpkg"/>
+      <Element27 FileName="Packages/PCE_BrookFrameworkDaemon.ctpkg"/>
+      <Element28 FileName="Packages/PCE_BrookFrameworkLibraryLoader.ctpkg"/>
+      <Element29 FileName="Packages/PCE_BrookFrameworkTardigradeBroker.ctpkg"/>
+      <Element30 FileName="Packages/PCE_BrookFrameworkUtilities.ctpkg"/>
+      <Element31 FileName="Packages/PCE_BrookFrameworkIDEIntegration.ctpkg"/>
+      <Element32 FileName="Examples/Examples.ctmpr"/>
+    </Elements>
+  </MultiProject>
+</CONFIG>

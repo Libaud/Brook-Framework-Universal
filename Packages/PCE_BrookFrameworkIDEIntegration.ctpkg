@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="PCE_BrookFrameworkIDEIntegration"/>
+    <Type Value="RunAndDesignTime"/>
+    <HasRegisterProc Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="../Sources/ide;../Sources/include;../../../Common"/>
+        <Libraries Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+        <OtherUnitFiles Value="../Sources/ide;../Sources/include"/>
+        <UnitOutputDirectory Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="0"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Other>
+        <Verbosity>
+          <ShowAll Value="True"/>
+          <ShowDebugInfo Value="True"/>
+        </Verbosity>
+        <WriteFPCLogo Value="False"/>
+        <CustomOptions Value="-dLCL"/>
+      </Other>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="registerpce_brookframeworkideintegration.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="RegisterPCE_BrookFrameworkIDEIntegration"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/ide/BrookIDEIntegration.pas"/>
+        <UnitName Value="BrookIDEIntegration"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/ide/brookideintf.pas"/>
+        <UnitName Value="BrookIDEIntf"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/ide/brookpropedits.pas"/>
+        <UnitName Value="BrookPropEdits"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/ide/frmbrookactedit.pas"/>
+        <FRMtype Value="400"/>
+        <UnitName Value="frmBrookActEdit"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/ide/frmbrookchooseprojecttype.pas"/>
+        <FRMtype Value="400"/>
+        <UnitName Value="frmBrookChooseProjectType"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/ide/frmbrooknewbroker.pas"/>
+        <FRMtype Value="400"/>
+        <UnitName Value="frmBrookNewBroker"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/ide/frmbrooknewproject.pas"/>
+        <FRMtype Value="400"/>
+        <UnitName Value="frmBrookNewProject"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="bs_IDEIntf"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkCore"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

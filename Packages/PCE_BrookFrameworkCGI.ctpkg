@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="PCE_BrookFrameworkCGI"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="../Sources/include"/>
+        <Libraries Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+        <OtherUnitFiles Value="../Sources/cgi;../Sources/utilities"/>
+        <UnitOutputDirectory Value="../../../Library/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="../Sources/cgi/BrookCGIRequest.pas"/>
+        <UnitName Value="BrookCGIRequest"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/cgi/BrookCGIHandler.pas"/>
+        <UnitName Value="BrookCGIHandler"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/cgi/BrookCGIApplications.pas"/>
+        <UnitName Value="BrookCGIApplications"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/utilities/BrookCGIUtils.pas"/>
+        <UnitName Value="BrookCGIUtils"/>
+      </Item>
+      <Item>
+        <Filename Value="../Sources/cgi/BrookCGIResponse.pas"/>
+        <UnitName Value="BrookCGIResponse"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkRouter"/>
+      </Item>
+      <Item>
+        <PackageName Value="PCE_BrookFrameworkApplications"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
